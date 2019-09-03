@@ -11,6 +11,12 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux'
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+//    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux'
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+//    compile group: 'io.undertow', name: 'undertow-core'
+//    compile group: 'io.undertow', name: 'undertow-servlet'
+    // https://mvnrepository.com/artifact/ru.odnoklassniki/one-nio
+    implementation group: 'ru.odnoklassniki', name: 'one-nio', version: '1.1.0'
+
 }
